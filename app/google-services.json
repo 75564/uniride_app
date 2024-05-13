@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "881515720612",
+    "project_id": "login-register-firebase-445a1",
+    "storage_bucket": "login-register-firebase-445a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881515720612:android:b953ae54298099d70d1b31",
+        "android_client_info": {
+          "package_name": "com.example.mygooglemap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMAoT41vYYV7F2qygIQgVnpd7qUjBH_2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881515720612:android:605ad611fdf34a6d0d1b31",
+        "android_client_info": {
+          "package_name": "com.example.myregister"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMAoT41vYYV7F2qygIQgVnpd7qUjBH_2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
