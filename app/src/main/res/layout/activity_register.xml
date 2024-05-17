@@ -7,12 +7,6 @@
     android:background="@drawable/bg"
     tools:context=".Register">
 
-  <RelativeLayout
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:background="@color/my_primary"
-      android:alpha="0.7"/>
-
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -137,6 +131,12 @@
           android:textSize="15dp"
           android:textColor="@color/my_primary"
           android:layout_marginLeft="10dp" />
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:alpha="0.7"
+          android:background="@color/my_primary" />
 
     </LinearLayout>
 

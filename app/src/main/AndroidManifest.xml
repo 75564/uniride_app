@@ -19,12 +19,6 @@
             android:name=".Login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
             <meta-data
                 android:name="android.app.lib.name"
                 android:value="" />
@@ -36,6 +30,16 @@
             android:name=".Register"
             android:exported="false" />
 
+        <activity android:name=".ChooseUserActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".BusDriverRegisterActivity" />
+    <activity android:name=".BusDriverLoginActivity" />
         <meta-data
             android:name="android.app.lib.name"
             android:value="" />
